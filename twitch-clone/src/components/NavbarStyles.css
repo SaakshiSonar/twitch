@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background: rgb(59, 58, 58);
+    padding: 10px 10px;
+    margin:0
+    
+  }
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #navbar li {
+    list-style: none;
+    padding: 0 10px;
+    position: relative;
+  }
+  
+  #navbar li a {
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+  #navbar li a:hover,
+  #navbar li a.active {
+    color: white;
+  }
+
+  /*button*/
+  .button {
+    background-color: #9146FF; /* Blue color, change it to your desired color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    padding: 0.7rem;
+  }
+  
+  .button:hover {
+    background-color: #6441A4; /* Darker shade of blue on hover */
+    color:#fff;
+  }

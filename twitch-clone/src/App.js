@@ -1,11 +1,17 @@
-import Register from './Register';
+import React from "react";
 
-function app(){
+import Navbar from "./components/Navbar";
+
+function App(){
+ 
 
   return(
-    <main className="App">
-      <Register/>
-    </main>
+    
+      <Navbar/>
+     
+      
+     
   );
-}
+};
+
 export default App;
