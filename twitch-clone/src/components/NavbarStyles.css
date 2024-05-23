@@ -4,6 +4,8 @@ nav {
     justify-content: space-between;
     background: rgb(59, 58, 58);
     padding: 10px 10px;
+    position: sticky;
+    z-index:0;
     margin:0
     
   }
@@ -27,22 +29,23 @@ nav {
     transition: 0.3s ease-in-out;
   }
   #navbar li a:hover,
-  #navbar li a.active {
-    color: white;
+  #navbar li a.activeLink {
+    color: #9146FF;
+    text-decoration: underline;
   }
 
   /*button*/
-  .button {
+  button {
     background-color: #9146FF; /* Blue color, change it to your desired color */
-    color: #fff; /* Text color */
-    text-decoration: none; /* Remove underline */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Add rounded corners */
+    color: #fff; 
+     text-decoration: none ;
+    border: none; 
+    border-radius: 5px;
     cursor: pointer; /* Show pointer cursor on hover */
     padding: 0.7rem;
   }
   
-  .button:hover {
-    background-color: #6441A4; /* Darker shade of blue on hover */
+  button:hover {
+    background-color: #6441A4; 
     color:#fff;
   }
